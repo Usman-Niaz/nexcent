@@ -1,0 +1,48 @@
+.community {
+  height: 28rem;
+  &__tittle {
+    text-align: center;
+    &--heading {
+      font-size: 30px;
+      color: #4D4D4D;
+    }
+    &--para {
+      font-size: 16px;
+      color: #717171;
+      font-weight: 400;
+      line-height: 16.71px;
+      margin-top: 1rem;
+    }
+  }
+  &__card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    &__div {
+      padding: 1rem;
+      width: 300px;
+      height: 280px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      &--image {
+        width: 65px;
+        height: 56px;
+      }
+      &--heading {
+        margin-top: 1rem;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        color: #4d4d4d;
+      }
+      &--text {
+        margin-top: 1rem;
+        font-size: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #4d4d4d;
+      }
+    }
+  }
+}

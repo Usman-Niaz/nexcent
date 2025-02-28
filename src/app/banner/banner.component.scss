@@ -1,0 +1,59 @@
+.banner {
+
+  height: 416px;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+
+&__content{
+  display: flex;
+  margin: 50px 100px 30px 132px;
+  gap: 4rem;
+}
+
+  &__text {
+    height: 300px;
+    width: 680px;
+    &--heading {
+      font-size: 68px;
+      line-height: 70px;
+      font-weight: 600;
+    }
+    &--span {
+      line-height: 70px;
+      color: #4caf4f;
+    }
+    p {
+      color: #717171;
+      line-height: 29.71px;
+      font-size: 18px;
+    }
+    &--btn {
+      width: 9rem;
+      height: 3rem;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      background-color: #4caf4f;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 2rem;
+      &:hover{
+        background-color: #4add4f;
+      }
+    }
+  }
+  &__image {
+    width: 360px;
+    height: 300px;
+    img {
+      width: 360px;
+      height: 300px;
+    }
+  }
+  &__dots{
+    display: flex;
+        justify-content: center;
+  }
+}

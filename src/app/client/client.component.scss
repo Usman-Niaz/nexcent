@@ -1,0 +1,30 @@
+.client{
+    height: 200px;
+    
+    &__tittle{
+        margin-top: 2rem;
+        text-align: center;
+        &--heading{
+            font-size: 30px;
+            color: #4D4D4D;
+        }
+        &--para{
+            font-size: 16px;
+            color: #717171;
+            font-weight: 400;
+            line-height: 16.71px;
+            margin-top: 1rem;
+        }
+
+    }
+    &__images{
+        margin: 3rem 7rem 1rem 7rem;
+        height: 68px;
+        justify-content: space-around;
+        display: flex;
+        &--image{
+            width: 43px;
+            height: 43px;
+        }
+    }
+}

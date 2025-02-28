@@ -1,0 +1,42 @@
+.customer{
+    margin-top: 2rem;
+    height:390px ;
+    background-color: #F5F7FA;
+    display: flex;
+    gap: 3rem;
+    &__image{
+        width: 326px;
+        height: 326px;
+        margin-top: 2rem;
+        margin-left: 6rem;
+        
+    }
+    &__text{
+        width: 748px;
+        height: 324px;
+        margin-top: 2rem;
+        &--para{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color:#717171 ;
+        }
+        &--heading{
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 28px;
+            color: #4CAF4F;
+        }
+        &__icons{
+            margin-top: 2rem;
+            width: 748px;
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+            &--imgs{
+                width: 48px;
+                height: 48px;
+              }  
+            }
+    }
+}

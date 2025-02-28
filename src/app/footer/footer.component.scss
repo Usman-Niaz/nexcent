@@ -1,0 +1,95 @@
+.footer {
+  height: 328px;
+  background-color: #263238;
+  padding: 1px;
+  display: flex;
+  gap: 6rem;
+  &__company-info {
+    width: 350px;
+    height: 190px;
+    margin-top: 4rem;
+    margin-left: 9rem;
+    &__logo {
+      display: flex;
+      &--image {
+        width: 45px;
+        height: 30px;
+      }
+      &--tittle {
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-left: 0.3rem;
+        color: #FFFFFF;
+      }
+    }
+    &--para {
+      font-size: 14px;
+      margin-top: 1rem;
+      line-height: 20px;
+      color: #F5F7FA;
+    }
+    &__social-logo {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      &--image{
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+  &__links{
+    width: 635px;
+    height: 200px;
+    display: flex;
+    margin-top: 4rem;
+    &__data{
+        width: 160px;
+        height: 200px;
+        &--heading{
+            font-size: 20px;
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 28px;
+        }
+        &--para{
+            margin-top: 0.3rem;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #F5F7FA;
+
+        }
+    }
+    &__data-date{
+        width: 255px;
+        height: 92px;
+        &--heading{
+            font-size: 20px;
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 28px;
+        }
+        &--input{
+            margin-top: 1rem;
+            width: 255px;
+            height: 40px;
+            border: none;
+           font-size: 14px;
+           font-weight: 400;
+           line-height: 20px;
+           padding: 1rem;
+           border-radius: 8px;
+           background-color: lightgray;
+        }
+        &--icon{
+          position: absolute;
+          margin-left: -2.5rem;
+          margin-top: 1.6rem;
+          cursor: pointer;
+
+        }
+    }
+  }
+}
