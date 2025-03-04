@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './achievement.component.scss'
 })
 export class AchievementComponent {
-
+total:number=2245341;
+total1:number=828867;
 }
