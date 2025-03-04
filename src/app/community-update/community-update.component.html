@@ -1,61 +1,26 @@
 <div class="community-update">
-  <div class="community-update__text">
-    <h2 class="community-update__text--heading">Caring is the new marketing</h2>
-    <p class="community-update__text--para">
+<div class="community_update__main">
+  <div class="community-update__main__text">
+    <h2 class="community-update__main__text--heading">Caring is the new marketing</h2>
+    <p class="community-update__main__text--para">
       The Nexcent blog is the best place to read about the latest membership
       insights, <br>trends and more. See who's joining the community, read about how
       our community <br>are increasing their membership income and lot's more.​
     </p>
   </div>
-  <div class="community-update__cards">
-    <div class="community-update__cards__inner">
-        <div class="community-update__cards__inner--image">
-            <img
-            src="assets/images/u1.svg"
-            alt="image"
-          />
+  <div class="community-update__main__cards">
+    @for (update of communityUpdates; track update) {
+      <div class="community-update__main__cards__inner">
+        <div class="community-update__main__cards__inner--image">
+          <img [src]="update.image" alt="image" />
         </div>
-        <div class="community-update__cards__inner--text">
-            <p>Creating Streamlined <br>Safeguarding Processes with <br>OneRen</p>
-            <img
-            src="assets/images/btn.svg"
-            alt="image"
-          />
+        <div class="community-update__main__cards__inner--text">
+          <p [innerHTML]="update.text"></p>
+          <img [src]="update.buttonImage" alt="button image" />
         </div>
-    </div>
-
-    <div class="community-update__cards__inner">
-        <div class="community-update__cards__inner--image">
-            <img
-            src="assets/images/u2.svg"
-            alt="image"
-          />
-        </div>
-        <div class="community-update__cards__inner--text">
-            
-            <p>What are your safeguarding responsibilities and how can you manage them?</p>
-            <img
-            src="assets/images/btn.svg"
-            alt="image"
-          />
-        </div>
-    </div>
-
-    <div class="community-update__cards__inner">
-        <div class="community-update__cards__inner--image">
-            <img
-            src="assets/images/u3.svg"
-            alt="image"
-          />
-        </div>
-        <div class="community-update__cards__inner--text">
-            <p>Revamping the Membership Model with Triathlon <br>Australia</p>
-            <img
-            src="assets/images/btn.svg"
-            alt="image"
-          />
-        </div>
-    </div>
-    
+      </div>
+    }
   </div>
+</div>
+  
 </div>

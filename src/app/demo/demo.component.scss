@@ -1,5 +1,8 @@
 .demo {
   background-color: #f5f7fa;
+ &__main{
+  width: 1349px;
+  justify-self: center;
   height: 320px;
   padding: 1px;
   &__text {
@@ -42,4 +45,5 @@
       font-size: 20px;
     }
   }
+ }
 }
