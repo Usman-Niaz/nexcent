@@ -1,36 +1,26 @@
 <div class="customer">
-  <div class="customer__image">
+<div class="customer__main">
+  <div class="customer__main__image">
     <img
       src="assets/images/image9.svg"
       alt="airpods-image"
       class="calender__image--pic"
     />
   </div>
-  <div class="customer__text">
-    <p class="customer__text--para">
-      Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem
-      dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus
-      sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie
-      arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
-      molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis
-      tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum
-      pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae
-      placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur
-      libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit
-      amet magna.
+  <div class="customer__main__text">
+    <p class="customer__main__text--para">
+      {{description}}
     </p>
-    <h2 class="customer__text--heading">
+    <h2 class="customer__main__text--heading">
         Tim Smith
     </h2>
-    <p class="customer__text--para">British Dragon Boat Racing Association</p>
-    <div class="customer__text__icons">
-        <img src="assets/images/c1.svg" alt="" class="customer__text__icons--imgs">
-        <img src="assets/images/c2.svg" alt="" class="customer__text__icons--imgs">
-        <img src="assets/images/c3.svg" alt="" class="customer__text__icons--imgs">
-        <img src="assets/images/c4.svg" alt="" class="customer__text__icons--imgs">
-        <img src="assets/images/c5.svg" alt="" class="customer__text__icons--imgs">
-        <img src="assets/images/c6.svg" alt="" class="customer__text__icons--imgs">
-        <img src="assets/images/c7.svg" alt="" class="customer__text__icons--imgs1">
+    <p class="customer__main__text--para">British Dragon Boat Racing Association</p>
+    <div class="customer__main__text__icons">
+      @for (image of images; track image) {
+        <img [src]="image.image" alt="" class="customer__main__text__icons--imgs">
+      }      
+        <img src="assets/images/c7.svg" alt="" class="customer__main__text__icons--imgs1">
     </div>
   </div>
+</div>
 </div>

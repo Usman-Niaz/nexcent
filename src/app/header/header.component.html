@@ -1,20 +1,20 @@
 <div class="header">
   <div class="header__logo">
-    <img src="assets/images/logo.svg" alt="Logo">
+    <img [src]="imageUrl" alt="Logo" />
     <h1 class="header__logoTitle">Nexcet</h1>
   </div>
 
   <div class="header__menu">
     <ul class="header__menuList">
-      <li class="header__menuItem">Home</li>
-      <li class="header__menuItem">Features</li>
-      <li class="header__menuItem">Community</li>
-      <li class="header__menuItem">Blog</li>
-      <li class="header__menuItem">Pricing</li>
+      <li class="header__menuItem">{{ home }}</li>
+      <li class="header__menuItem">{{ feature }}</li>
+      <li class="header__menuItem">{{ community }}</li>
+      <li class="header__menuItem">{{ blog }}</li>
+      <li class="header__menuItem">{{ pricing }}</li>
     </ul>
-    
+
     <button class="header__btn">
-      Get Started <fa-icon [icon]="faArrowRight"></fa-icon>
-    </button>  
+      {{ btn }} <fa-icon [icon]="faArrowRight"></fa-icon>
+    </button>
   </div>
 </div>

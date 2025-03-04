@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './pixel.component.scss'
 })
 export class PixelComponent {
-
+  image:string="assets/images/rafiki.svg"
 }

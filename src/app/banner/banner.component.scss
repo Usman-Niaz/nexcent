@@ -1,5 +1,4 @@
 .banner {
-
   height: 416px;
   background-color: #f5f7fa;
   display: flex;
@@ -7,6 +6,7 @@
 
 &__content{
   display: flex;
+  justify-content: center;
   margin: 50px 100px 30px 132px;
   gap: 4rem;
 }

@@ -1,15 +1,17 @@
 <div class="client">
-    <div class="client__tittle">
-        <h1 class="client__tittle--heading">Our Clients</h1>
-        <p class="client__tittle--para">We have been working with some Fortune 500+ clients</p>
+  <div class="client__main">
+    <div class="client__main__tittle">
+      <h1 class="client__main__tittle--heading">{{ client }}</h1>
+      <p class="client__main__tittle--para">{{ clients }}</p>
     </div>
-    <div class="client__images">
-        <img src="assets/images/image1.svg" alt="image" class="client__images--image">
-        <img src="assets/images/image2.svg" alt="image" class="client__images--image">
-        <img src="assets/images/image3.svg" alt="image" class="client__images--image">
-        <img src="assets/images/image4.svg" alt="image" class="client__images--image">
-        <img src="assets/images/image5.svg" alt="image" class="client__images--image">
-        <img src="assets/images/image6.svg" alt="image" class="client__images--image">
-        <img src="assets/images/image7.svg" alt="image" class="client__images--image">
+    <div class="client__main__images">
+      <img [src]="image1" alt="image" class="client__images--image" />
+      <img [src]="image2" alt="image" class="client__images--image" />
+      <img [src]="image3" alt="image" class="client__images--image" />
+      <img [src]="image4" alt="image" class="client__images--image" />
+      <img [src]="image5" alt="image" class="client__images--image" />
+      <img [src]="image6" alt="image" class="client__images--image" />
+      <img [src]="image7" alt="image" class="client__images--image" />
     </div>
+  </div>
 </div>
